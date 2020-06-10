@@ -1,0 +1,31 @@
+what is displayed to the user? (traditional pokedex)
+ - Pokemon Name
+ - Pokemon Number
+ - Pokemon Picture
+ - Description
+ - Version? (changes description)
+ - Information:
+    - Height
+    - Weight
+    - Category
+    - Gender
+    - Abilities
+        - Name 
+        - description
+ - Type(s)
+ - Weaknesse(s) (listed as types)
+ - Statistics: (some sort of numerical value between 1 and 15)
+    - HP
+    - Attack
+    - Defense
+    - Special Attack
+    - Special Defense
+    - Speed
+
+User Interfaces:
+ - search
+ - filters
+ - Header Bar (Pokedex header)
+ - Sub Header (Pokemon Name)
+ - Main Body (Pokemon Picture)
+ - 
