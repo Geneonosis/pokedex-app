@@ -1,0 +1,18 @@
+<div>
+    <span title="Pokemon!">
+        <img src='../../assets/Images/Pokedex-02.png' style="height:100px;" alt="Pokedex">
+    </span>
+</div>
+
+<div>
+    <button mat-button [matMenuTriggerFor]="appMenu">Menu</button>
+    <mat-menu #appMenu="matMenu">
+        <button mat-menu-item>Settings</button>
+        <button mat-menu-item>Help</button>
+    </mat-menu>
+
+    <button mat-button [matMenuTriggerFor]="appAbout">About</button>
+    <mat-menu #appAbout="matMenu">
+        <button mat-menu-item>About Us</button>
+    </mat-menu>
+</div>
