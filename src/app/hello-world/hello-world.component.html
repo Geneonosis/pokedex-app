@@ -1,5 +1,5 @@
-<div *ngIf="isLoaded">
-<table mat-table [dataSource]="myDataArray" class="">
+<div *ngIf="complete">
+<table mat-table [dataSource]="myDataArray" class="mat-elevation-z8">
     <ng-container matColumnDef="position">
         <th mat-header-cell *matHeaderCellDef>No.</th>
         <td mat-cell *matCellDef="let element">{{element.position}}</td>
